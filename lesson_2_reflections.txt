@@ -3,3 +3,20 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
     Staging area is a sort of limbo so that I can separate my commits into logical groupings.
+
+How can you use the staging area to make sure you have one commit per logical change?
+    You can use git diff to check that all the changes in the staging area are related to one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    Honestly at a loss for this one....I guess when I want to make a substantial version change, but want to keep my working version.
+
+How do the diagrams help you visualize the branch structure?
+    Helps me see what's accessible to what branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+    You compile all the differences from both branches into one master branch. To show that they each have different commit histories
+    allowing you to check out the changes that were implemented and what they did.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+    No fucking clue really. Something about Git saves you from going through and deciding which bits should be represented in the new merged master.
+    
